@@ -22,10 +22,10 @@ Route::post('login', [RegisterController::class, 'login']);
 // Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 //     return $request->user();
 // });
-
-Route::middleware('auth:sanctum')->group( function () {
+route::get('test', [ApiController::class, 'test']);
+Route::middleware('auth:sanctum')->group(function () {
    // Route::resource('products', ProductController::class);
-   route::get('test', [ApiController::class, 'test']);
+
    route::post('hit-data', [ApiController::class, 'hitData']);
 });
 

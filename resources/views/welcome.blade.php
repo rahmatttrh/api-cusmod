@@ -22,11 +22,16 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     </head>
     <body class="">
-      <div class="container text-center pt-5">
-      <h1><b>BACK-END API SERVER</b></h1>
-      <h1>CUSTOM MODULES</h1>
+      <div class="container text-center pt-4">
+      <h5>API SERVER</h5>
+      <h1><b>CUSTOM MODULES APP</b></h1>
       <hr>
-      <small>API Server is running...</small>
+      <small>Server is running...</small><br>
+      <img width="400px" src="{{asset('img/data-server.png')}}" alt="">
+      <hr>
+      <div class="text-center">
+         GRAHA SEGARA | BEA CUKAI | KOJA | JICT
+      </div>
    </div>
         {{-- <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center py-4 sm:pt-0">
             @if (Route::has('login'))
